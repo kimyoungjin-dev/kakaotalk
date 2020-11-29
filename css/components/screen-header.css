@@ -3,11 +3,13 @@
   justify-content: space-between;
   padding: var(--horizontal-space);
   align-items: center;
+  color: black;
 }
 
 .sreen-header__title {
   font-size: 28px;
   font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .sreen-header__icons span {
