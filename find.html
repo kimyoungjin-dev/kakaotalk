@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - kakao talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi fa-lg"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt fa-lg"></i>
+      </div>
+    </div>
+
+<header class="sreen-header">
+  <h1 class="sreen-header__title">Find</h1>
+  <div class="sreen-header__icons">
+  <span> <i class="fas fa-search fa-lg"></i></span>
+   <span> <i class="fas fa-cog fa-lg"></i> </span>
+   
+  </div>
+</header>
+
+
+
+<main class="main-screen">
+
+<div class="find-icons">
+
+<div class="find-icons__icon"><i class="fas fa-qrcode"></i><span>QR Code</span></div>
+<div class="find-icons__icon"><i class="far fa-address-book"></i><span>Add by Contacts</span></div>
+<div class="find-icons__icon"><i class="fas fa-fingerprint"></i><span>Add by ID</span></div>
+<div class="find-icons__icon"><i class="far fa-envelope-open"></i><span>Invite</span></div>
+
+
+
+</div>
+
+
+<div class="recommended-friends">
+<h6 class="recommended-friends__title">Recommended Friends</h6>
+<span>You have to recommended friends</span>
+</div>
+
+<div class="open-chat">
+<div class="open-chat__header">
+
+  <h4>Open Chat</h4>
+  <span>Go to Openchat Home
+  <i class="fas fa-chevron-right fa-XS"></i></span>
+
+</div>
+
+<div class="open-post">
+
+<!--first column image and text-->
+  <div class="open-post__column">
+    <h5 class="open-post__title">#Apple</h5>
+    <h6 class="open-post__hashtags">#Apple#ipone#ipone12</h6>
+    <div class="open-post__members">
+    <img src="data:image/png;base64,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" />
+    <span class="open-post__member-count">Apple ipad pro5</span>
+    <div class="divider"></div>
+    <span class="open-post__member-status">Active</span>
+
+    </div>
+
+  </div>
+
+<!--first column 2second-->
+
+
+  <div class="open-post__column"></div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></i></li>
+        <li class="nav__btn"><a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">1</span><i class="far fa-comment fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="more.html">
+          <div class="nav__notification nav__notification2"></div><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
