@@ -1,0 +1,8 @@
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  align-items: center;
+  border: var(--horizontal-space);
+  margin-bottom: 15px;
+}
