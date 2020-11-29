@@ -26,6 +26,34 @@
   font-size: 17px;
 }
 
+.user-component__column__text {
+  position: relative;
+}
+
+.user-component__column__subtitle-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.user-component__column__subtitle__image {
+  color: red;
+  border: 1.9px solid red;
+  border-radius: 30px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.user-component__column__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  margin-right: 8px;
+}
+
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
